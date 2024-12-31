@@ -1,1 +1,132 @@
 @charset "utf-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+/* 전체 레이아웃 */
+.container {
+  width: 1200px;
+  height: 700px;
+  background-color: rgb(255, 149, 10);
+  margin: auto;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: thistle;
+}
+.logo {
+  width: 200px;
+  height: 100px;
+  background-color: turquoise;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+}
+nav {
+  position: relative;
+  width: 1000px;
+  height: 100%;
+  background-color: silver;
+  float: right;
+}
+#topMenu {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  width: calc(100% - 300px);
+  border: 2px solid #333;
+  background-color: rgb(122, 217, 255);
+}
+#topMenu li a {
+  width: calc(100% / 4);
+  float: left;
+  text-align: center;
+  line-height: 35px;
+  font-weight: bold;
+}
+#topMenu li a:hover {
+  color: aliceblue;
+  background-color: black;
+}
+/* 메인 */
+.contents {
+  width: 100%;
+  height: 500px;
+  background-color: rosybrown;
+}
+.img_slide {
+  width: 100%;
+  height: 300px;
+  background-color: springgreen;
+  text-align: center;
+  line-height: 300px;
+}
+.main2 {
+  width: 100%;
+  height: 200px;
+  background-color: slategray;
+}
+.gallery {
+  width: calc(100% / 3);
+  height: 200px;
+  background-color: rgb(255, 157, 198);
+  text-align: center;
+  line-height: 200px;
+  float: left;
+}
+.banner {
+  width: calc(100% / 3);
+  height: 200px;
+  background-color: rgb(255, 253, 142);
+  text-align: center;
+  line-height: 200px;
+  float: left;
+}
+.c4 {
+  width: calc(100% / 3);
+  height: 200px;
+  background-color: royalblue;
+  text-align: center;
+  line-height: 200px;
+  float: left;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 181, 85);
+}
+.footerLogo {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(255, 195, 195);
+  text-align: center;
+  line-height: 100px;
+  float: left;
+}
+.copyright {
+  width: calc(100% - 400px);
+  height: 100px;
+  background-color: rgb(183, 183, 255);
+  text-align: center;
+  line-height: 100px;
+  float: left;
+}
+.sns {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(255, 167, 123);
+  text-align: center;
+  line-height: 100px;
+  float: left;
+}
